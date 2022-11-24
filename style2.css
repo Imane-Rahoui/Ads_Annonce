@@ -105,7 +105,7 @@
         display: block;
         margin:10px
     }
-    .blabla{
+    .infos{
         grid-area: bb;
 
     }
@@ -148,6 +148,8 @@
     }
 
 }
+
+/*Desk*/
 
 @media screen and (min-width: 1024px) and (max-width: 1280px)
 {
@@ -192,7 +194,6 @@
         padding-left: 10px;
         font-size: large;
         padding-top: 10px;
-        padding-bottom: 10px;
         height: 25px;
         align-items: flex-end;
     }
@@ -215,46 +216,45 @@
         text-align: center;
         background-color: rgb(58, 157, 255);
         color:white;
-        font-size: xx-large;
-        padding-top: 40px;
+        font-size: x-large;
+        padding-top: 20px;
     }
     #it2{
         grid-area: it2;
         text-align: center;
         background-color: dodgerblue;
         color:white;
-        font-size: xx-large;
-        padding-top: 40px;
+        font-size: x-large;
+        padding-top: 20px;
     }
     .thirdContainer
     {
         grid-area: thirdContainer; 
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 28%;
+        grid-template-rows: 45%;
         grid-template-areas:
         "pic "
     }
     #pic{
         grid-area: pic;
         margin: 10px;
-        margin-bottom: 5px;
         background-color: white;
         border-radius: 5px;
         display: grid;
-        grid-template-columns: 35% 25% 40%;
+        grid-template-columns: 40% 20% 20% 10% 10%;
         grid-template-rows: 100%;
         grid-template-areas:
-        "fl bb price"
+        "fl bb . . price"
     }
     #fl{
         grid-area: fl;
         max-width: 95%;
-        max-height: 95%;
+        max-height: 92%;
         display: block;
         margin:10px
     }
-    .blabla{
+    .infos{
         grid-area: bb;
 
     }
@@ -263,37 +263,33 @@
         padding-left: 20px;   
         font-weight: bold;
         display: inline-block;
-        margin-top: 40px ;
-        margin-bottom: 0px;
-        margin-left: 10px;
     }
     .desc{
         font-size: 35px;     
         padding-left: 20px; 
-        display: inline-block;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: 10px;
+        margin:0px;
     }
     .hr{
         grid-area: hr;
         padding-left: 20px; 
-        margin-top: 150px;
-        margin-bottom: 0px;
-        margin-left: 10px;
         font-size: 30px;
         display: inline-block;
         font-style: italic;
     }
+
     #price{
         grid-area: price;
         padding-left: 20px; 
-        margin-top: 250px;
-        margin-bottom: 0px;
-        margin-left: 240px;
         font-size: 30px;
         display: inline-block;
         font-style: bold;
+        display: flex;
+        align-items: flex-end;
+    }
+                
+    .pr{
+        text-align: left;
+
     }
 
 }
