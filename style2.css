@@ -1,0 +1,302 @@
+
+/*Mobile*/
+@media only screen and (max-device-width: 480px) 
+{
+
+    body{
+        margin-left: 0px;
+        padding: 0px;
+        margin: 0%;
+    }
+    .container {
+        display: grid;
+        background-color: #CFD8DC;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 7% 7% 81% auto;
+        grid-template-areas:
+        "header header "
+        "secondContainer secondContainer"
+        "thirdContainer thirdContainer"
+        "footer footer";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left:0;
+    }
+    
+    .ad { 
+        grid-area: header;
+        background-color: dodgerblue;
+        color:white;
+        padding-left: 10px;
+        font-size: xx-large;
+        padding-top: 30px;
+        min-height: 80px;
+        height: 80px;
+        margin: 0px;
+    }
+
+    .footer { 
+        grid-area: footer; 
+        background-color: dodgerblue;
+        color:white;
+        padding-left: 10px;
+        font-size: large;
+        padding-top: 26px;
+        padding-bottom: 20px;
+        height: 35px;
+    }
+
+    .main { 
+        grid-area: main; 
+    }
+
+    .secondContainer
+    {
+        grid-area: secondContainer; 
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "it1 it2"
+    }
+    #it1{
+        grid-area: it1;
+        text-align: center;
+        background-color: rgb(58, 157, 255);
+        color:white;
+        font-size: xx-large;
+        padding-top: 40px;
+    }
+    #it2{
+        grid-area: it2;
+        text-align: center;
+        background-color: dodgerblue;
+        color:white;
+        font-size: xx-large;
+        padding-top: 40px;
+    }
+    .thirdContainer
+    {
+        grid-area: thirdContainer; 
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 28%;
+        grid-template-areas:
+        "pic "
+    }
+    #pic{
+        grid-area: pic;
+        margin: 10px;
+        margin-bottom: 5px;
+        background-color: white;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: 35% 25% 40%;
+        grid-template-rows: 100%;
+        grid-template-areas:
+        "fl bb price"
+    }
+    #fl{
+        grid-area: fl;
+        max-width: 95%;
+        max-height: 95%;
+        display: block;
+        margin:10px
+    }
+    .blabla{
+        grid-area: bb;
+
+    }
+    .title{
+        font-size: 40px;     
+        padding-left: 20px;   
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 40px ;
+        margin-bottom: 0px;
+        margin-left: 10px;
+    }
+    .desc{
+        font-size: 35px;     
+        padding-left: 20px; 
+        display: inline-block;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 10px;
+    }
+    .hr{
+        grid-area: hr;
+        padding-left: 20px; 
+        margin-top: 150px;
+        margin-bottom: 0px;
+        margin-left: 10px;
+        font-size: 30px;
+        display: inline-block;
+        font-style: italic;
+    }
+    #price{
+        grid-area: price;
+        padding-left: 20px; 
+        margin-top: 250px;
+        margin-bottom: 0px;
+        margin-left: 240px;
+        font-size: 30px;
+        display: inline-block;
+        font-style: bold;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px)
+{
+
+    body{
+        margin-left: 0px;
+        padding: 0px;
+        margin: 0%;
+    }
+    .container {
+        display: grid;
+        background-color: #CFD8DC;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 7% 7% 81% auto;
+        grid-template-areas:
+        "header header "
+        "secondContainer secondContainer"
+        "thirdContainer thirdContainer"
+        "footer footer";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left:0;
+    }
+    
+    .ad { 
+        grid-area: header;
+        background-color: dodgerblue;
+        color:white;
+        padding-left: 10px;
+        font-size: x-large;
+        padding-top: 10px;
+        height: 50px;
+        margin: 0px;
+    }
+
+    .footer { 
+        grid-area: footer; 
+        background-color: dodgerblue;
+        color:white;
+        padding-left: 10px;
+        font-size: large;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: 25px;
+        align-items: flex-end;
+    }
+
+    .main { 
+        grid-area: main; 
+    }
+
+    .secondContainer
+    {
+        grid-area: secondContainer; 
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "it1 it2"
+    }
+    #it1{
+        grid-area: it1;
+        text-align: center;
+        background-color: rgb(58, 157, 255);
+        color:white;
+        font-size: xx-large;
+        padding-top: 40px;
+    }
+    #it2{
+        grid-area: it2;
+        text-align: center;
+        background-color: dodgerblue;
+        color:white;
+        font-size: xx-large;
+        padding-top: 40px;
+    }
+    .thirdContainer
+    {
+        grid-area: thirdContainer; 
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 28%;
+        grid-template-areas:
+        "pic "
+    }
+    #pic{
+        grid-area: pic;
+        margin: 10px;
+        margin-bottom: 5px;
+        background-color: white;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: 35% 25% 40%;
+        grid-template-rows: 100%;
+        grid-template-areas:
+        "fl bb price"
+    }
+    #fl{
+        grid-area: fl;
+        max-width: 95%;
+        max-height: 95%;
+        display: block;
+        margin:10px
+    }
+    .blabla{
+        grid-area: bb;
+
+    }
+    .title{
+        font-size: 40px;     
+        padding-left: 20px;   
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 40px ;
+        margin-bottom: 0px;
+        margin-left: 10px;
+    }
+    .desc{
+        font-size: 35px;     
+        padding-left: 20px; 
+        display: inline-block;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 10px;
+    }
+    .hr{
+        grid-area: hr;
+        padding-left: 20px; 
+        margin-top: 150px;
+        margin-bottom: 0px;
+        margin-left: 10px;
+        font-size: 30px;
+        display: inline-block;
+        font-style: italic;
+    }
+    #price{
+        grid-area: price;
+        padding-left: 20px; 
+        margin-top: 250px;
+        margin-bottom: 0px;
+        margin-left: 240px;
+        font-size: 30px;
+        display: inline-block;
+        font-style: bold;
+    }
+
+}
+
+
+
