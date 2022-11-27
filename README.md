@@ -1,1 +1,1 @@
-# WebIntegrationResponsiveDesign_IZ
+# Web Integration Responsive Design
