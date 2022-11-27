@@ -9,16 +9,16 @@
 
 - Login page (Mobile) :
 
-<img src='./p1MobileScreen.png'/>
+<img src='screenshot/p1MobileScreen.png'/>
 
 - Login page (Desktop) :
 
-<img src='./p1DescScreen.png'/>
+<img src='screenshot/p1DescScreen.png'/>
 
 - Ads page (Mobile) :
 
-<img src='./p2MobileScreen.png'/>
+<img src='screenshot/p2MobileScreen.png'/>
 
 - Ads page (Desktop) :
 
-<img src='./p2DescScreen.png'/>
+<img src='screenshot/p2DescScreen.png'/>
